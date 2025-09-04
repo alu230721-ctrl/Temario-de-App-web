@@ -26,10 +26,56 @@ En la última década, el desarrollo web se ha transformado con la aparición de
 
 4. **PWA (Progressive Web App)**  
    Son aplicaciones web que ofrecen una experiencia similar a las aplicaciones móviles nativas. Funcionan offline, pueden enviar notificaciones y se pueden instalar en dispositivos móviles. Utilizan tecnologías modernas como Service Workers para mejorar el rendimiento y la accesibilidad. Ejemplos son Twitter Lite y Spotify Web.
+# Arquitectura de aplicaciones web
 
----
+## Arquitectura de las aplicaciones web
+La arquitectura de aplicaciones web define cómo se estructuran y organizan los componentes y servicios que permiten el funcionamiento de una aplicación en la web. Una arquitectura bien diseñada facilita el desarrollo, mantenimiento, escalabilidad y seguridad de las aplicaciones, permitiendo que los diferentes módulos interactúen de manera eficiente.
 
-En resumen, el desarrollo web ha pasado de simples páginas estáticas a complejas aplicaciones interactivas que rivalizan con el software tradicional. Esta evolución ha sido impulsada por la innovación tecnológica y la demanda de experiencias digitales más avanzadas y accesibles para los usuarios.
+## Cliente-Servidor
+
+El modelo Cliente-Servidor es el fundamento de la mayoría de aplicaciones web. En este modelo, el **cliente** es el dispositivo o programa (como un navegador web) que solicita recursos o servicios, mientras que el **servidor** es el sistema que procesa esas solicitudes y envía la respuesta adecuada. El cliente suele encargarse de la interfaz de usuario y la interacción, mientras que el servidor maneja el procesamiento, almacenamiento y gestión de datos.
+
+- **Cliente:** Solicita recursos, muestra la interfaz y recibe la respuesta del servidor.
+- **Servidor:** Recibe solicitudes, procesa la lógica de negocio, accede a las bases de datos y envía respuestas.
+
+Este modelo permite separar responsabilidades y facilita la escalabilidad, ya que múltiples clientes pueden interactuar simultáneamente con uno o varios servidores.
+
+## Arquitectura de tres capas
+
+La arquitectura de tres capas es una evolución del modelo Cliente-Servidor, que organiza la aplicación en tres niveles distintos:
+
+1. **Presentación:**  
+   Es la capa encargada de la interacción con el usuario, normalmente implementada en el navegador o aplicación móvil. Incluye interfaces gráficas y validaciones básicas.
+
+2. **Lógica de negocio:**  
+   Es el núcleo de la aplicación, donde se procesan las reglas y operaciones principales. Aquí se toman decisiones, se procesan datos y se gestiona el flujo de la aplicación.
+
+3. **Datos:**  
+   Es la capa responsable del almacenamiento y recuperación de información, típicamente a través de bases de datos. Se encarga de guardar, modificar y consultar los datos de la aplicación.
+
+Esta separación permite que cada capa se desarrolle y mantenga de forma independiente, mejorando la organización, la seguridad y la escalabilidad del sistema.
+
+## REST y API-first design
+
+### REST (Representational State Transfer)
+
+REST es un estilo de arquitectura para el diseño de servicios web, donde los recursos se exponen a través de URLs y se manipulan usando los métodos estándar de HTTP (GET, POST, PUT, DELETE, etc.). Las aplicaciones basadas en REST son fáciles de escalar, mantener y consumir, ya que siguen convenciones claras y utilizan formatos de datos ligeros como JSON o XML.
+
+**Principios de REST:**
+- Uso de HTTP y sus métodos.
+- Recursos identificados por URLs.
+- Intercambio de datos sin estado (stateless).
+- Representaciones de recursos en formatos estándar.
+
+### API-first design
+
+El enfoque API-first consiste en diseñar la API antes que el resto de la aplicación, estableciendo las reglas y contratos de comunicación entre componentes desde el principio. Este método es ideal para aplicaciones que requieren integración entre múltiples servicios o dispositivos (front-end, back-end y terceros), ya que asegura que todos los equipos trabajen sobre un mismo estándar y facilita la escalabilidad y el mantenimiento.
+
+**Ventajas del API-first design:**
+- Alineación entre equipos de desarrollo.
+- Documentación clara y reutilizable.
+- Facilita el desarrollo paralelo de front-end y back-end.
+- Mejora la integración y la interoperabilidad.
 
 ## 3. -Lenguajes y tecnologías fundamentales  
 HTML, CSS, JavaScript, PHP, MySQL  
