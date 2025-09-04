@@ -126,30 +126,76 @@ MySQL es un sistema de gestión de bases de datos relacional muy utilizado en el
 - Permite consultas complejas mediante el lenguaje SQL.
 - Es gratuito, robusto y ampliamente soportado. 
 
-## 4.-Control de versiones  
+# 4.-Control de versiones
 
-Git y GitHub  
-Flujo de trabajo con ramas (branching, merge, pull requests)  
+El control de versiones es una práctica fundamental en el desarrollo de software que permite registrar, supervisar y gestionar los cambios realizados en el código fuente de un proyecto a lo largo del tiempo. Gracias al control de versiones, los desarrolladores pueden colaborar de manera eficiente, recuperar versiones anteriores y mantener la integridad del código.
+
+## Git y GitHub
+
+**Git** es un sistema de control de versiones distribuido, creado por Linus Torvalds, que facilita el seguimiento de los cambios en archivos y la coordinación entre equipos de desarrollo. Permite trabajar de manera local y remota, brindando gran flexibilidad y seguridad para proyectos pequeños y grandes.
+
+**GitHub** es una plataforma en línea que utiliza Git como base, pero añade funcionalidades colaborativas como la gestión de repositorios, seguimiento de problemas (issues), revisión de código y documentación. GitHub facilita el trabajo en equipo, la publicación de proyectos y la colaboración con desarrolladores de todo el mundo.
+
+## Flujo de trabajo con ramas (branching, merge, pull requests)
+
+Un flujo de trabajo común en proyectos modernos consiste en aprovechar las **ramas** de Git para desarrollar nuevas funcionalidades, corregir errores o experimentar sin afectar el código principal. El proceso general es:
+
+1. **Branching (creación de ramas):**  
+   Se crea una nueva rama a partir de la principal (generalmente llamada `main` o `master`). En esta rama se realizan todos los cambios relacionados con una nueva funcionalidad o corrección.
+
+2. **Merge (fusión de ramas):**  
+   Una vez que los cambios en la rama están listos y probados, se integran (fusionan) con la rama principal. Git ayuda a resolver posibles conflictos surgidos de cambios simultáneos en el código.
+
+3. **Pull Requests:**  
+   En plataformas como GitHub, antes de fusionar una rama, se realiza un "pull request", que es una solicitud para revisar y aprobar los cambios antes de integrarlos al proyecto principal. Los revisores pueden comentar, proponer mejoras y aprobar o rechazar los cambios. Este proceso fomenta la colaboración, la calidad del código y la transparencia. 
 
 ## Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web  
 
-# 1.-Diseño e implementación del frontend  
-Maquetación/Wireframe/Mockup  
-API  
+# 1. Diseño e implementación del frontend
 
-# 2.-Diseño e implementación del backend  
-Servidor  
-Manejo de peticiones y respuestas HTTP  
-Conexión a bases de datos (MySQL, PostgreSQL, MongoDB)  
-# 3.-Bases de datos  
+El **frontend** es la parte de la aplicación web con la que interactúan directamente los usuarios. Su diseño y desarrollo implica crear interfaces visuales atractivas, funcionales y accesibles.
 
- Modelado de datos y relaciones  
-ORM (Object Relational Mapping)  
-CRUD desde el backend  
+- **Maquetación, Wireframe y Mockup:**  
+  La maquetación consiste en organizar los elementos visuales de una página (texto, imágenes, botones, menús, etc.) usando herramientas como HTML y CSS. Antes de programar, se suelen crear wireframes (esquemas simples) y mockups (diseños detallados) para planificar la estructura y el aspecto visual.
+- **API:**  
+  El frontend suele comunicarse con el backend a través de APIs (Interfaces de Programación de Aplicaciones), obteniendo y enviando datos para actualizar la interfaz dinámicamente.
 
-# 4.-Seguridad básica en aplicaciones web  
-Validación de formularios  
-Autenticación y autorización   
+---
+
+# 2. Diseño e implementación del backend
+
+El **backend** es la parte de la aplicación que gestiona la lógica, el procesamiento de datos y la comunicación con la base de datos. No es visible para el usuario, pero es fundamental para el funcionamiento de la aplicación.
+
+- **Servidor:**  
+  El backend se ejecuta en un servidor, que recibe las peticiones del frontend y responde según la lógica de la aplicación.
+- **Manejo de peticiones y respuestas HTTP:**  
+  El backend procesa las solicitudes HTTP (GET, POST, PUT, DELETE, etc.) que llegan desde el cliente, ejecuta las operaciones necesarias y devuelve respuestas (generalmente en formato JSON).
+- **Conexión a bases de datos (MySQL, PostgreSQL, MongoDB):**  
+  El servidor se conecta a bases de datos para almacenar, consultar y modificar información. MySQL y PostgreSQL son sistemas relacionales, mientras que MongoDB es una base de datos NoSQL orientada a documentos.
+
+---
+
+# 3. Bases de datos
+
+Las bases de datos permiten almacenar y organizar información de manera eficiente y segura.
+
+- **Modelado de datos y relaciones:**  
+  Consiste en definir cómo se estructuran los datos y las relaciones entre ellos (por ejemplo, usuarios y sus pedidos). En bases de datos relacionales, esto se realiza mediante tablas y claves foráneas.
+- **ORM (Object Relational Mapping):**  
+  Los ORM son herramientas que facilitan la interacción entre el código del backend y la base de datos, permitiendo trabajar con objetos en el lenguaje de programación en vez de escribir consultas SQL directamente (ejemplos: SQLAlchemy, Sequelize, Doctrine).
+- **CRUD desde el backend:**  
+  El backend implementa las operaciones básicas sobre los datos: Crear (Create), Leer (Read), Actualizar (Update) y Borrar (Delete), conocidas como CRUD.
+
+---
+
+# 4. Seguridad básica en aplicaciones web
+
+La seguridad es esencial para proteger la información y a los usuarios de una aplicación.
+
+- **Validación de formularios:**  
+  Consiste en revisar los datos que ingresan los usuarios para evitar errores y ataques (por ejemplo, SQL Injection), comprobando que los campos sean correctos antes de procesarlos.
+- **Autenticación y autorización:**  
+  La autenticación verifica la identidad del usuario (por ejemplo, mediante usuario y contraseña), mientras que la autorización determina qué acciones puede realizar ese usuario dentro de la aplicación. Implementar estas medidas ayuda a proteger datos sensibles y restringir el acceso a funcionalidades según los permisos.   
 
 # Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional  
 # 1. -Integración de frontend y backend  
