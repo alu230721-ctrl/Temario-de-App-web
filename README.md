@@ -147,7 +147,9 @@ Un flujo de trabajo común en proyectos modernos consiste en aprovechar las **ra
    Una vez que los cambios en la rama están listos y probados, se integran (fusionan) con la rama principal. Git ayuda a resolver posibles conflictos surgidos de cambios simultáneos en el código.
 
 3. **Pull Requests:**  
-   En plataformas como GitHub, antes de fusionar una rama, se realiza un "pull request", que es una solicitud para revisar y aprobar los cambios antes de integrarlos al proyecto principal. Los revisores pueden comentar, proponer mejoras y aprobar o rechazar los cambios. Este proceso fomenta la colaboración, la calidad del código y la transparencia. 
+   En plataformas como GitHub, antes de fusionar una rama, se realiza un "pull request", que es una solicitud para revisar y aprobar los cambios antes de integrarlos al proyecto principal. Los revisores pueden comentar, proponer mejoras y aprobar o rechazar los cambios. Este proceso fomenta la colaboración, la calidad del código y la transparencia.
+   <img width="309" height="143" alt="image" src="https://github.com/user-attachments/assets/b79ba9b2-dc2b-49ca-a660-272bad63949f" />
+
 
 ## Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web  
 
