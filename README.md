@@ -249,3 +249,6 @@ La optimización y el rendimiento son claves para ofrecer una experiencia rápid
 
 - **Documentación del proyecto:**  
   La documentación clara y accesible facilita la comprensión, mantenimiento y colaboración en el proyecto. Incluye guías de instalación, uso, arquitectura y referencias de API, y puede elaborarse en archivos Markdown, wikis o portales especializados.
+
+<img width="304" height="168" alt="image" src="https://github.com/user-attachments/assets/421759a3-ec74-40c6-acd5-36ed2c27ad02" />
+
