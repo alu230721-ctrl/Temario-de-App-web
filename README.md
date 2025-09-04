@@ -198,21 +198,54 @@ La seguridad es esencial para proteger la información y a los usuarios de una a
 - **Validación de formularios:**  
   Consiste en revisar los datos que ingresan los usuarios para evitar errores y ataques (por ejemplo, SQL Injection), comprobando que los campos sean correctos antes de procesarlos.
 - **Autenticación y autorización:**  
-  La autenticación verifica la identidad del usuario (por ejemplo, mediante usuario y contraseña), mientras que la autorización determina qué acciones puede realizar ese usuario dentro de la aplicación. Implementar estas medidas ayuda a proteger datos sensibles y restringir el acceso a funcionalidades según los permisos.   
+  La autenticación verifica la identidad del usuario (por ejemplo, mediante usuario y contraseña), mientras que la autorización determina qué acciones puede realizar ese usuario dentro de la aplicación. Implementar estas medidas ayuda a proteger datos sensibles y restringir el acceso a funcionalidades según los permisos.
+
+<img width="299" height="168" alt="image" src="https://github.com/user-attachments/assets/5428ee76-aea8-4b5c-8f86-833e9704a971" />
+
 
 # Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional  
-# 1. -Integración de frontend y backend  
-Interfaz de usuario Frontend  
-Manejo de API  
-Proceso de Solicitud y Respuesta de Backend  
+# 1. Integración de frontend y backend
 
-# 2.- Almacenamiento en Servidor  
-Tipos de servidores   
-Servidores y servicios de hosting  
-Proveedores de Servicios de Almacenamiento  
+La integración entre frontend y backend es fundamental para crear aplicaciones web completas y funcionales. Este proceso permite que la **interfaz de usuario** (frontend), diseñada para la interacción del usuario, se comunique con la lógica y los datos gestionados por el **backend**.
 
-# 3.-Optimización y rendimiento  
-Optimización de recursos (imágenes, scripts)  
-Despliegue de aplicaciones web  
-CI/CD básico  
-Documentación del proyecto  
+- **Interfaz de usuario Frontend:**  
+  El frontend proporciona la estructura visual y la experiencia de usuario, enviando solicitudes (como formularios o clics) al backend para obtener o modificar información.
+
+- **Manejo de API:**  
+  La integración se realiza mediante APIs (Application Programming Interfaces), que definen los métodos y rutas para que el frontend solicite datos al backend y reciba respuestas estructuradas (usualmente en formato JSON).
+
+- **Proceso de Solicitud y Respuesta de Backend:**  
+  El frontend envía solicitudes HTTP (GET, POST, PUT, DELETE) al backend, que procesa la petición, consulta la base de datos si es necesario y responde al frontend con los datos solicitados o el resultado de una operación.
+
+---
+
+# 2. Almacenamiento en Servidor
+
+El almacenamiento en el servidor es esencial para guardar archivos, datos y recursos necesarios para el funcionamiento de la aplicación web.
+
+- **Tipos de servidores:**  
+  Los servidores pueden ser dedicados (exclusivos para un cliente), virtuales (VPS), compartidos (varios usuarios en un mismo servidor físico) o servidores en la nube, que ofrecen escalabilidad y flexibilidad.
+
+- **Servidores y servicios de hosting:**  
+  El hosting es el servicio que permite publicar aplicaciones web en Internet. Puede ser tradicional (servidores físicos o virtuales) o en la nube, con proveedores como AWS, Azure, Google Cloud, Heroku, entre otros.
+
+- **Proveedores de Servicios de Almacenamiento:**  
+  Existen servicios especializados en almacenamiento de archivos y datos, como Amazon S3, Google Cloud Storage y Dropbox, que facilitan el manejo de grandes volúmenes de información, respaldo y recuperación ante fallos.
+
+---
+
+# 3. Optimización y rendimiento
+
+La optimización y el rendimiento son claves para ofrecer una experiencia rápida y eficiente a los usuarios.
+
+- **Optimización de recursos (imágenes, scripts):**  
+  Consiste en reducir el tamaño de imágenes, minificar scripts y hojas de estilo, y utilizar técnicas como lazy loading para cargar recursos solo cuando son necesarios.
+
+- **Despliegue de aplicaciones web:**  
+  El despliegue implica publicar la aplicación en un servidor o servicio de hosting, asegurando que esté disponible para los usuarios. Incluye la configuración de dominios, certificados SSL y la automatización de tareas de actualización.
+
+- **CI/CD básico (Integración y Entrega Continua):**  
+  CI/CD son prácticas para automatizar la integración, pruebas y despliegue del código. Herramientas como GitHub Actions, Jenkins y GitLab CI permiten que los cambios en el código se prueben y publiquen automáticamente, reduciendo errores y acelerando el desarrollo.
+
+- **Documentación del proyecto:**  
+  La documentación clara y accesible facilita la comprensión, mantenimiento y colaboración en el proyecto. Incluye guías de instalación, uso, arquitectura y referencias de API, y puede elaborarse en archivos Markdown, wikis o portales especializados.
