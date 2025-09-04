@@ -1,7 +1,7 @@
 # Temario-de-App-web
 ## Propósito de Aprendizaje 1: Comprender los fundamentos del desarrollo de aplicaciones web.  
 
-	<ins># 1.-Introducción al desarrollo web </ins>
+<ins># 1.-Introducción al desarrollo web </ins>
 Historia y evolución del desarrollo web  
 Tipos de aplicaciones web (estáticas, dinámicas, SPA, PWA)  
 
