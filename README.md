@@ -148,7 +148,8 @@ Un flujo de trabajo común en proyectos modernos consiste en aprovechar las **ra
 
 3. **Pull Requests:**  
    En plataformas como GitHub, antes de fusionar una rama, se realiza un "pull request", que es una solicitud para revisar y aprobar los cambios antes de integrarlos al proyecto principal. Los revisores pueden comentar, proponer mejoras y aprobar o rechazar los cambios. Este proceso fomenta la colaboración, la calidad del código y la transparencia.
-   <img width="309" height="143" alt="image" src="https://github.com/user-attachments/assets/b79ba9b2-dc2b-49ca-a660-272bad63949f" />
+
+<img width="309" height="143" alt="image" src="https://github.com/user-attachments/assets/605a3f6b-7970-477f-b929-b04fde817d08" />
 
 
 ## Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web  
