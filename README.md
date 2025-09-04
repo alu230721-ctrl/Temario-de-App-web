@@ -1,7 +1,7 @@
 # Temario-de-App-web
 ## Propósito de Aprendizaje 1: Comprender los fundamentos del desarrollo de aplicaciones web.  
 
-# Introducción al desarrollo web
+# 1.-Introducción al desarrollo web
 
 El desarrollo web es el conjunto de actividades orientadas a la creación, diseño y mantenimiento de sitios y aplicaciones accesibles a través de Internet. Esta disciplina abarca tanto el trabajo en la parte visible para el usuario (front-end), como la gestión de datos y lógica en el servidor (back-end). Con el paso del tiempo, el desarrollo web ha evolucionado para ofrecer experiencias cada vez más interactivas, seguras y personalizadas, utilizando tecnologías como HTML, CSS, JavaScript y diversos frameworks modernos.
 
@@ -28,7 +28,7 @@ En la última década, el desarrollo web se ha transformado con la aparición de
    Son aplicaciones web que ofrecen una experiencia similar a las aplicaciones móviles nativas. Funcionan offline, pueden enviar notificaciones y se pueden instalar en dispositivos móviles. Utilizan tecnologías modernas como Service Workers para mejorar el rendimiento y la accesibilidad. Ejemplos son Twitter Lite y Spotify Web.
 # Arquitectura de aplicaciones web
 
-## Arquitectura de las aplicaciones web
+## 2.-Arquitectura de las aplicaciones web
 La arquitectura de aplicaciones web define cómo se estructuran y organizan los componentes y servicios que permiten el funcionamiento de una aplicación en la web. Una arquitectura bien diseñada facilita el desarrollo, mantenimiento, escalabilidad y seguridad de las aplicaciones, permitiendo que los diferentes módulos interactúen de manera eficiente.
 
 ## Cliente-Servidor
@@ -77,8 +77,54 @@ El enfoque API-first consiste en diseñar la API antes que el resto de la aplica
 - Facilita el desarrollo paralelo de front-end y back-end.
 - Mejora la integración y la interoperabilidad.
 
-## 3. -Lenguajes y tecnologías fundamentales  
-HTML, CSS, JavaScript, PHP, MySQL  
+# 3.-Lenguajes y tecnologías fundamentales
+
+El desarrollo web se basa en diversos lenguajes y tecnologías que permiten crear interfaces atractivas, interactivas y funcionales, así como gestionar la lógica y los datos en el servidor. A continuación se describen los principales lenguajes y tecnologías fundamentales:
+
+## HTML (HyperText Markup Language)
+
+HTML es el lenguaje de marcado principal para la creación de páginas web. Define la estructura y el contenido básico de un sitio, como títulos, párrafos, listas, imágenes, enlaces y formularios. Los navegadores web interpretan el código HTML para mostrar la información al usuario.
+
+**Características principales:**
+- Define la estructura de la web.
+- Utiliza etiquetas como `<html>`, `<head>`, `<body>`, `<h1>`, `<p>`, etc.
+- Es la base sobre la que se aplican estilos y scripts.
+
+## CSS (Cascading Style Sheets)
+
+CSS es el lenguaje utilizado para controlar la apariencia y el diseño de los elementos HTML. Permite definir colores, fuentes, márgenes, posiciones, animaciones y estilos responsivos. Gracias a CSS, las páginas web pueden adaptarse a diferentes dispositivos y ofrecer una experiencia visual agradable.
+
+**Características principales:**
+- Separa el contenido de la presentación.
+- Permite crear diseños adaptativos (responsive).
+- Utiliza selectores y reglas para aplicar estilos.
+
+## JavaScript
+
+JavaScript es el lenguaje de programación fundamental para agregar interactividad y dinamismo a las páginas web. Se ejecuta en el navegador, permitiendo responder a eventos del usuario, modificar el contenido de la página en tiempo real y comunicar con el servidor sin recargar la página (AJAX).
+
+**Características principales:**
+- Permite manipular el DOM (estructura de la página).
+- Implementa lógica en el lado del cliente.
+- Es la base de frameworks y librerías modernas (React, Angular, Vue).
+
+## PHP
+
+PHP es un lenguaje de programación que se ejecuta en el servidor y se utiliza principalmente para construir aplicaciones web dinámicas. Permite procesar formularios, gestionar sesiones, interactuar con bases de datos y generar contenido HTML personalizado para cada usuario.
+
+**Características principales:**
+- Se ejecuta en el servidor.
+- Facilita la creación de páginas dinámicas.
+- Amplia integración con bases de datos (especialmente MySQL).
+
+## MySQL
+
+MySQL es un sistema de gestión de bases de datos relacional muy utilizado en el desarrollo web. Permite almacenar, organizar y recuperar grandes volúmenes de datos de manera eficiente. Es comúnmente usado junto con PHP para construir aplicaciones que requieren persistencia de información, como blogs, tiendas en línea y sistemas de usuarios.
+
+**Características principales:**
+- Almacena y organiza información en tablas.
+- Permite consultas complejas mediante el lenguaje SQL.
+- Es gratuito, robusto y ampliamente soportado. 
 
 ## 4.-Control de versiones  
 
